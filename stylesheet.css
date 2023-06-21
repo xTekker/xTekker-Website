@@ -1,11 +1,10 @@
-/* main body background image */
 body {
-background-image: url('1-3_map.png');
+background-image: url('tekkerbackground.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 
 }
-/* container styling */
+/* site-wide container styling */
 #container {
 height: 100%;
 width: 100%;
@@ -15,9 +14,10 @@ bottom: 0px;
 right: 0px;
 
 }
-/* Main div styling */
+/* index main div styling */
 #main {
 text-align: center;
+color: white;
 font-family: copperplate, Arial, Verdana;
 border-style: solid;
 background-color: #586063;
@@ -31,36 +31,72 @@ left: 40%;
 top: 30%;
 
 }
- /* background color of nav bar */
+/* ssh server page main div styling */
+#sshmain {
+text-align: center;
+color: white;
+font-family: copperplate, Arial, Verdana;
+border-style: solid;
+background-color: #586063;
+border-style: solid;
+border-width: 3px;
+border-color: blue;
+height: 20%;
+width: 20%;
+position: fixed;
+left: 40%;
+top: 30%;
+
+}
+/* Minigame page main div styling */
+#minigamesmain {
+text-align: center;
+color: white;
+font-family: copperplate, Arial, Verdana;
+border-style: solid;
+background-color: #586063;
+border-style: solid;
+border-width: 3px;
+border-color: blue;
+height: 10%;
+width: 20%;
+position: fixed;
+left: 40%;
+top: 30%;
+
+}
+ /* Add a black background color to the top navigation */
 .topnav {
   background-color: grey;
   overflow: hidden;
+  position: fixed;
+  left: 27%
 }
 
-/* Link styling for nav bar */
+/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-/* on hover change colour */
+/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
-/* Active link background colour */
+/* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #5f99f5;
+  color: black;
 }
 
-/* small screen hide link on nav */
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
