@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>xTekker - The Site</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="pong.js"></script>
 </head>
 <body>
 <div id="container">
@@ -18,9 +19,28 @@
         </a>
     </ul>
 
-    <div id="main">
-        <p>Welcome to xTekkers Playground</p>
-        <p>Here, You can view some of my active projects, including my personal homebrewed server, my Github, and Minigames!</p>
+    <div id="pongmain">
+        <p>Welcome to xTekkers Pong - Made with Javascript</p>
+        <p>Check out the Leaderboard below!</p>
+    </div>
+
+    <div id="pongleaderboard">
+        Leaderboard for Pong
+    </div>
+
+    <div id="game-container">
+        <div id="left-paddle"></div>
+        <div id="right-paddle"></div>
+        <div id="ball"></div>
+    </div>
+    <button id="pong-start-button">Start</button>
+    <button id="pong-restart-button">Restart</button>
+
+    <div id="pongcontrollegend">
+        <p>How to play?</p>
+        <p>Game should begin upon loading of this page</p>
+        <p>Up and down Arrow to control the Left Paddle</p>
+        <p>Restart button to restart</p>
     </div>
 
 </div>

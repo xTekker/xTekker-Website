@@ -17,13 +17,28 @@
     <li><a href="contact.html">Contact Me</a></li>
     </a>
   </ul>
+</div>
 
   <div id="contactmain">
     <p>Use the form below to contact me</p>
   </div>
 
+  <div id="formcontainer">
+  <h1>Contact Me</h1>
+  <form id="contact-form" action="send-email.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Send">
+  </form>
 </div>
+
 <script src="navbar.js"></script>
 </body>
 </html>

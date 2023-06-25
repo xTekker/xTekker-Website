@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>xTekker - The Site</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="snake.js"></script>
 </head>
 <body>
 <div id="container">
@@ -18,11 +19,25 @@
         </a>
     </ul>
 
-    <div id="main">
-        <p>Welcome to xTekkers Playground</p>
-        <p>Here, You can view some of my active projects, including my personal homebrewed server, my Github, and Minigames!</p>
+    <div id="snakemain">
+        <p>Welcome to xTekkers Snake - Made with Javascript</p>
+        <p>Check out the Leaderboard below!</p>
     </div>
 
+    <div id="snakeleaderboard">
+        Leaderboard for Snake
+    </div>
+
+    <canvas id="snakecanvas" width="400" height="400"></canvas>
+     <button id="snake-start-button">Start</button>
+      <button id="snake-restart-button">Restart</button>
+
+    <div id="snakecontrollegend">
+        <p>How to play?</p>
+        <p>Game should begin upon loading of this page</p>
+        <p>Arrows to control Sake</p>
+        <p>Restart button to restart</p>
+    </div>
 </div>
 <script src="navbar.js"></script>
 </body>
