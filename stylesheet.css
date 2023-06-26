@@ -2,16 +2,16 @@ body {
   background-image: url('tekkerbackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 80%;
+  height: 80%;
 }
 /* site-wide container styling */
 #container {
   height: 100%;
   width: 100%;
   position: fixed;
-  bottom: 0px;
-  right: 0px;
 }
-    /* MAIN PAGE STYLING START */
+    /* MAIN PAGES STYLING START */
 /* index main div styling */
 #main {
   text-align: center;
@@ -28,7 +28,31 @@ body {
   width: 20%;
   position: fixed;
   left: 40%;
-  top: 15%;
+  top: 20%;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  font-family: Copperplate, Arial, Verdana;
+  border-style: solid;
+  background-color: #586063;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  border-radius: 8px;
+  padding: 5px;
+  height: 2%;
+  width: 20%;
+  position: fixed;
+  left: 40%;
+  top: 95%;
+}
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 /* ssh server page main div styling */
 #sshmain {
@@ -41,12 +65,48 @@ body {
   border-width: 3px;
   border-color: blue;
   border-radius: 8px;
-  height: 20%;
+  height: 30%;
   width: 20%;
   position: fixed;
   left: 40%;
-  top: 30%;
+  top: 10%;
 }
+/*SSH server details div styling */
+#sshdetails {
+  text-align: center;
+  color: white;
+  font-family: Copperplate, Arial, Verdana;
+  border-style: solid;
+  background-color: #586063;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  border-radius: 8px;
+  height: 30%;
+  width: 20%;
+  position: fixed;
+  left: 40%;
+  top: 45%;
+}
+/*SSH server config details div styling */
+#serverconfig{
+  text-align: center;
+  color: white;
+  font-family: Copperplate, Arial, Verdana;
+  border-style: solid;
+  background-color: #586063;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  border-radius: 8px;
+  height: 50%;
+  width: 15%;
+  position: fixed;
+  left: 10%;
+  top: 10%;
+
+}
+
 /* Minigame page main div styling */
 #minigamesmain {
   text-align: center;
@@ -107,6 +167,8 @@ ul {
   overflow: hidden;
   background-color: #333;
   position: fixed;
+  left: 0%;
+  top: 0%;
   width: 100%;
 }
 li {
@@ -132,12 +194,14 @@ li a.active {
 #formcontainer {
   position: fixed;
   text-align: center;
-  left: 50%;
+  left: 20%;
   top: 45%;
   transform: translate(-50%, -50%);
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  border-radius: 8px;
+  background-color: #d1d1d1;
   padding: 20px;
 }
 
@@ -164,14 +228,14 @@ textarea {
 
 input[type="submit"] {
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #195fe3;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #03389c;
 }
 
     /* END MAIN PAGES STYLING */
@@ -252,7 +316,7 @@ border: none;
 border-radius: 4px;
 cursor: pointer;
 }
-
+/*I understand why I need to comment but I do not like this */
 #snake-restart-button {
 position: fixed;
 left: 60%;
@@ -515,23 +579,24 @@ cursor: pointer;
     /* END PUZZLE GAME STYLING */
 
     /* SPACE INVADERS STYLING */
+    /* space invaders button located on minigames.html styling */
 #spaceinvaders-button {
-position: fixed;
-text-align: center;
-left: 55%;
-top: 45%;
-display: block;
-width: 170px;
-height: 40px;
-margin: 10px;
-font-size: 16px;
-background: linear-gradient(45deg, #1d5fdb 40%, #083b9c 100%);
-color: #fff;
-border: solid 3px blue;
-border-radius: 4px;
-cursor: pointer;
-box-shadow: 0px 2px 4px black;
-border-radius: 8px;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  text-align: center;
+  left: 55%;
+  top: 45%;
+  display: block;
+  width: 170px;
+  height: 40px;
+  margin: 10px;
+  font-size: 16px;
+  background: linear-gradient(45deg, #1d5fdb 40%, #083b9c 100%);
+  color: #fff;
+  border: solid 3px blue;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px black;
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
-/* END SPAVE INVADERS STYLING */
+/* END SPACE INVADERS STYLING */
