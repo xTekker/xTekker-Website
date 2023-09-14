@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <title>xTekker - The Site</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <script src="tumblr.js"></script>
+    <script src="linkedin.js"></script>
 </head>
 <body>
 <div id="container">
+
+    <div id="siteheader">
+        <h1>Nathan/xTekker</h1>
+        <h2>Full-Stack Developer - IT Professional</h2>
+            <button id="menuButton" onclick="animationfunction()"> <span class="material-symbols-outlined">menu</span></button>
+    </div>
+
     <ul class="topnav" id="topnav">
-        <li><a id="index" href="index.html">Home</a></li>
-        <li><a href="https://github.com/xTekker">Github</a>
-        <li><a href="https://discord.gg/f5wBFbXKAM">Discord Bot Support Server</a></li>
-        <li><a href="minigames.html">Minigames</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="contact.html">Contact me</a></li>
+        <li><a href="index.html">Home <span class="material-symbols-outlined">home</span></a></li>
+        <li><a href="https://github.com/xTekker">Github <span class="material-symbols-outlined">view_kanban</span></a>
+        <li><a href="https://www.tumblr.com/xtekker">Blog <span class="material-symbols-outlined">rss_feed</span></a></li>
+        <li><a href="projects.html">Projects <span class="material-symbols-outlined">folder</span></a></li>
+        <li><a href="about.html">About me <span class="material-symbols-outlined">info</span></a></li>
+        <li><a href="contact.html">Contact me <span class="material-symbols-outlined">contact_page</span></a></li>
     </ul>
 
     <div id="main">
-        <p>Welcome to my Playground</p>
-        <p>This site is my portfolio and my playground, Here you can find my latest projects and experiments, as well as my Github and Discord bot support server.</p>
+        <p>Welcome to My Digital Portfolio</p>
+        <p>This platform represents the culmination of my work and serves as both a portfolio and a sandbox for my projects and experiments. Within these virtual walls, you'll discover my Github, Blog and latest projects.</p>
+        <p>I am Nathan, the 'architect' behind this digital domain. My aim is to provide a space where I can deploy projects, test innovations, grow a professional digital portfolio and hopefully inspire some people along the way. </p>
+        <p>As an online entity, I go by the moniker "xTekker" across all my digital channels. It is a way I shield my indenity similar to an XBox or Playstation Username.</p>
+        <p>Feel free to explore the work I've curated here and Thank you for visiting me on this digital journey.</p>
     </div>
-
-    <div id="footer">
-        Tekkers Playground 2023 © xTekker
-    </div>
+    
 
 </div>
 <script src="navbar.js"></script>

@@ -1,5 +1,5 @@
 body {
-  background-image: url('tekkerbackground.jpg');
+  background-image: url('backgroundimage.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -10,43 +10,98 @@ body {
   height: 100%;
   width: 100%;
   position: fixed;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
 }
     /* MAIN PAGES STYLING START */
 /* index main div styling */
 #main {
   text-align: center;
+  overflow: auto;
   color: white;
-  font-family: Copperplate, Arial, Verdana;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
   border-style: solid;
   background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
   padding: 5px;
-  height: 15%;
-  width: 20%;
+  height: 50%;
+  width: 25%;
   position: fixed;
-  left: 40%;
+  left: 35%;
   top: 20%;
 }
-
-#footer {
+#siteheader {
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background-color: #5c606d;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  position: fixed;
+  bottom: 93%;
+  left: 40%;
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(90deg, #3498db, #95a5a6);
+  webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(180deg, #3498db, #95a5a6);
+  webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: fixed;
+  bottom: 93%;
+  left: 40%;
+  margin: 0;
+  position: fixed;
+  bottom: 90%;
+  left: 36%;
+  font-size: 30px;
+}
+#menuButton {
+  padding: 6px;
+  position: fixed;
+  left: 3%;
+  border: 3px solid none;
+  border-radius: 8px;
+}
+#projectsmain {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
   color: white;
-  font-family: Copperplate, Arial, Verdana;
   border-style: solid;
   background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
-  padding: 5px;
-  height: 2%;
-  width: 20%;
+  height: 15%;
+  width: 25%;
+  position: fixed;
+  left: 50%;
+  top: 15%;
+}
+/* Located on contact.html */
+#socialmedia{
+  text-align: center;
+  display: inline;
+  color: white;
+  height: 3%;
+  width: 4%;
   position: fixed;
   left: 40%;
-  top: 95%;
+  top: 40%;
 }
 a {
   display: block;
@@ -54,131 +109,62 @@ a {
   text-align: center;
   text-decoration: none;
 }
-/* ssh server page main div styling */
-#sshmain {
-  text-align: center;
-  color: white;
-  font-family: Copperplate, Arial, Verdana;
-  border-style: solid;
-  background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
-  border-radius: 8px;
-  height: 30%;
-  width: 20%;
-  position: fixed;
-  left: 40%;
-  top: 10%;
-}
-/*SSH server details div styling */
-#sshdetails {
-  text-align: center;
-  color: white;
-  font-family: Copperplate, Arial, Verdana;
-  border-style: solid;
-  background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
-  border-radius: 8px;
-  height: 30%;
-  width: 20%;
-  position: fixed;
-  left: 40%;
-  top: 45%;
-}
-/*SSH server config details div styling */
-#serverconfig{
-  text-align: center;
-  color: white;
-  font-family: Copperplate, Arial, Verdana;
-  border-style: solid;
-  background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
-  border-radius: 8px;
-  height: 50%;
-  width: 15%;
-  position: fixed;
-  left: 10%;
-  top: 10%;
-
-}
-
-/* Minigame page main div styling */
-#minigamesmain {
-  text-align: center;
-  color: white;
-  font-family: Copperplate, Arial, Verdana;
-  border-style: solid;
-  background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
-  border-radius: 8px;
-  height: 10%;
-  width: 20%;
-  position: fixed;
-  left: 40%;
-  top: 15%;
-}
 /* About me styling */
 #aboutmemain {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  overflow: auto;
   color: white;
-  font-family: Copperplate, Arial, Verdana;
-  border-style: solid;
   background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
-  height: 58%;
-  width: 20%;
+  height: 77%;
+  width: 25%;
   position: fixed;
   left: 40%;
-  top: 15%;
+  top: 13%;
+  font-size: 18px;
 }
 /*Contact page styling */
 #contactmain {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
   color: white;
-  font-family: Copperplate, Arial, Verdana;
   border-style: solid;
   background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
-  height: 5%;
+  height: 7%;
   width: 20%;
   position: fixed;
   left: 40%;
-  top: 10%;
+  top: 13%;
 }
 
 /* Nav Bar Styling */
+#topnav {
+  display: none;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  width: 100%;
+  background-color: #5c606d;
+  background: linear-gradient(90deg, #3498db, #95a5a6);
+  border-radius: 15px;
+  border: 2px solid #5c606d;
+  padding: 20px;
+  position: absolute;
+  left: -1%;
+  top: 9%;
+  width: 15%;
+  height: 40%;
 }
-li {
-  float: left;
-}
-
 li a {
   display: block;
-  color: white;
   text-align: center;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -190,11 +176,13 @@ li a:hover {
 li a.active {
   background-color: #1249ff;
 }
+
 /* Contact me Form Styling */
 #formcontainer {
   position: fixed;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  left: 20%;
+  left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
   border-style: solid;
@@ -246,13 +234,11 @@ input[type="submit"]:hover {
   position: fixed;
   left: 20%;
   top: 23%;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
   width: 60%;
   height: 60%;
-  background-color: grey;
+  background-color:
 }
 /* The Score displayed in the top left corner of the snakecanvas */
 #score {
@@ -267,12 +253,9 @@ input[type="submit"]:hover {
 #snakemain {
   text-align: center;
   color: white;
-  font-family: Copperplate, Arial, Verdana;
   border-style: solid;
   background-color: #586063;
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+  border: 3px solid blue;
   border-radius: 8px;
   height: 9%;
   width: 20%;
@@ -304,7 +287,7 @@ input[type="submit"]:hover {
 #snake-start-button {
 position: fixed;
 left: 35%;
-top: 80%;
+top: 84%;
 display: block;
 width: 100px;
 height: 40px;
@@ -320,7 +303,7 @@ cursor: pointer;
 #snake-restart-button {
 position: fixed;
 left: 60%;
-top: 80%;
+top: 84%;
 display: block;
 width: 100px;
 height: 40px;
@@ -600,3 +583,6 @@ cursor: pointer;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 /* END SPACE INVADERS STYLING */
+
+    /* 2D GAME STYLING */
+/*

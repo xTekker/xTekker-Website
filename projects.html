@@ -16,7 +16,7 @@
 
   <div id="siteheader">
     <h1>Nathan/xTekker</h1>
-    <h2>Full-Stack Developer</h2>
+    <h2>Full-Stack Developer - IT Professional</h2>
     <button id="menuButton"> <span class="material-symbols-outlined">menu</span></button>
   </div>
 
@@ -28,28 +28,31 @@
     <li><a href="contact.html">Contact me <span class="material-symbols-outlined">contact_page</span></a></li>
   </ul>
 
-</div>
-
-  <div id="contactmain">
-    <p>Use the form below to contact me or reach out on one of the social media pages below</p>
+  <div id="projectsmain">
+    <p>The projects page or, as its also known, "The labrotory" is home to my personal completed projects, these range from a simple game of Snake bulit in Javascript up to a Space Invaders like game bulit in Python.</p>
   </div>
 
-<div id="formcontainer">
-  <form id="contact-form" action="contactscript.php" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+  <button type="button" id="snake-button">
+    Snake - Javascript
+  </button>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+  <button type="button" id="pong-button">
+    Pong - Javascript
+  </button>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
+  <button type="button" id="puzzle-button">
+    Puzzle - Python
+  </button>
 
-    <input type="submit" value="Send">
-  </form>
-</div>
+  <button type="button" id="spaceinvaders-button">
+    Space Invaders - Python
+  </button>
 
 </div>
 <script src="navbar.js"></script>
+<script src="snakebutton.js"></script>
+<script src="pongbutton.js"></script>
+<script src="puzzlebutton.js"></script>
+<script src="spaceinvadersbutton.js"></script>
 </body>
 </html>
